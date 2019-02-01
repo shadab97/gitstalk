@@ -7,7 +7,6 @@ let repoList = document.querySelector(".repo-list");
 function findUsers(e) {
 
     var username = e.target.value;
-    username = "shadab97";
     console.log(username);
     var xhr = new XMLHttpRequest();
     xhr.open('GET', `https://api.github.com/users/${username}`, true);
