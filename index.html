@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-light">
+    <header class="navbar bg-dark text-light">
+        <div class="navbar-brand "><img class="logo" src="logo.png" alt="" width="50px" height="50px">SEARCH GITHUB</div>
+
+        <div class="shacodes">
+            <a href="http://shadabali.me/portfolio/">by shacodes</a>
+        </div>
+    </header>
+    <div class="search container">
+        <p class="lead text-center text-dark">Search github user by entering their user name</p>
+        <p class="lead text-center text-dark">by default it will show shadab97's profile dev of this app</p>
+        <div class="col-sm-12">
+            <div class="container p-1"><input type="text" id="search" class="form-control" placeholder="Username..." value="shadab97"></div>
+        </div>
+    </div>
+    <div class="users container mt-3">
+        <div class="card">
+            <div class="card-header"></div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-3 user-image"></div>
+                    <div class="col-md-7 user-badge"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" container ">
+        <h2>Latest Repos</h2>
+        <p class="repo-list container list-group mt-3"></p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
